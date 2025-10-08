@@ -1,0 +1,18 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: experimental-bordel-resources
+  description: A collection of experimental infrastructure resources
+spec:
+  targets:
+    - ./resources/*.yaml
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: experimental-bordel-groups
+  description: A collection of experimental teams and groups
+spec:
+  targets:
+    - ./groups/*.yaml

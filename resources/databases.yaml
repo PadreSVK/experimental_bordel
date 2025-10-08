@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: purple-mssql-database-server
+  namespace: experiments
+  description: MSSQL server DB (for demo simplification we have 1 "server" that is on several VMs (dev, stg, prod)). 
+spec:
+  type: mssql-database-server
+  owner: experiment-team-database
+  dependsOn:
+   - resource:experiments/dev1vmgcighl01
+   - resource:experiments/prod1vmgcighl01
+   - resource:experiments/stg1vmgcighl01

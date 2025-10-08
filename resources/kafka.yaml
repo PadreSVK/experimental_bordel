@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: kafka-production-cluster
+  namespace: experiments
+  title: Orders Kafka Cluster
+  description: Kafka cluster
+spec:
+  type: kafka-cluster
+  lifecycle: production
+  owner: group:experiments/team-infrastructure

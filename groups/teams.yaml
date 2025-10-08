@@ -1,0 +1,73 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: team-database
+  namespace: experiments
+  description: The experimental database team
+spec:
+  type: experimental-team
+  profile:
+    displayName: Database Team
+    email: database-team@example.com
+    picture: https://upload.wikimedia.org/wikipedia/en/6/63/Feels_good_man.jpg
+  children: []
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: team-infrastructure
+  namespace: experiments
+  description: The experimental infrastructure team
+spec:
+  type: experimental-team
+  profile:
+    displayName: Infrastructure Team
+    email: infrastructure-team@example.com
+    picture: https://upload.wikimedia.org/wikipedia/en/6/63/Feels_good_man.jpg
+  children: []
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: team-platform
+  namespace: experiments
+  description: The experimental platform team
+spec:
+  type: experimental-team
+  profile:
+    displayName: Platform Team
+    email: platform-team@example.com
+    picture: https://upload.wikimedia.org/wikipedia/en/6/63/Feels_good_man.jpg
+  children: []
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: team-alpha
+  namespace: experiments
+  description: The experimental alpha team
+spec:
+  type: experimental-team
+  profile:
+    displayName: alpha Team
+    email: alpha-team@example.com
+    picture: https://pbs.twimg.com/media/GCvfP-XbQAACWTM.jpg
+  children: []
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: team-bravo
+  namespace: experiments
+  description: The experimental bravo team
+spec:
+  type: experimental-team
+  profile:
+    displayName: bravo Team
+    email: bravo-team@example.com
+    picture: https://pbs.twimg.com/media/GCvfP-XbQAACWTM.jpg
+  children: []

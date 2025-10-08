@@ -1,0 +1,31 @@
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: k8s-cluster-production
+  namespace: experiments
+  description: Production Kubernetes cluster
+spec:
+  type: k8s-cluster
+  owner: group:experiments/team-infrastructure
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: k8s-cluster-staging
+  namespace: experiments
+  description: Staging Kubernetes cluster
+spec:
+  type: k8s-cluster
+  owner: group:experiments/team-infrastructure
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: k8s-cluster-development
+  namespace: experiments
+  description: Development Kubernetes cluster
+spec:
+  type: k8s-cluster
+  owner: group:experiments/team-infrastructure

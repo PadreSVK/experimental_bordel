@@ -1,0 +1,31 @@
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: dev1vmgcighl01
+  namespace: experiments
+  description: MSSQL database for checkout-demo Service
+spec:
+  type: virtual-machine-windows
+  owner: group:experiments/team-infrastructure
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: prod1vmgcighl01
+  namespace: experiments
+  description: MSSQL database for checkout-demo Service
+spec:
+  type: virtual-machine-windows
+  owner: group:experiments/team-infrastructure
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: stg1vmgcighl01
+  namespace: experiments
+  description: MSSQL database for checkout-demo Service
+spec:
+  type: virtual-machine-windows
+  owner: group:experiments/team-infrastructure
