@@ -2,7 +2,6 @@ apiVersion: backstage.io/v1alpha1
 kind: Location
 metadata:
   name: experimental-bordel-resources
-  namespace: experiments
   description: A collection of experimental infrastructure resources
 spec:
   targets:
@@ -13,7 +12,6 @@ apiVersion: backstage.io/v1alpha1
 kind: Location
 metadata:
   name: experimental-bordel-groups
-  namespace: experiments
   description: A collection of experimental teams and groups
 spec:
   targets:
