@@ -71,3 +71,17 @@ spec:
     email: bravo-team@example.com
     picture: https://pbs.twimg.com/media/GCvfP-XbQAACWTM.jpg
   children: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: experiment-finance-alpha
+  namespace: experiments
+  description: The experimental finance alpha team
+spec:
+  type: experimental-team
+  profile:
+    displayName: finance alpha Team
+    email: finance-alpha-team@example.com
+    picture: https://pbs.twimg.com/media/GCvfP-XbQAACWTM.jpg
+  children: []
